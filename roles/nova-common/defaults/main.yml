@@ -40,7 +40,6 @@ nova:
   install_packages:
     - python-numpy
     - virt-top
-    - python-ironicclient
   driver:
     docker:
       rev: 'stable/mitaka'
